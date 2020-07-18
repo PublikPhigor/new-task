@@ -267,8 +267,15 @@ header {
         padding-right: 5px;
     }
 
+    .body-text h2,
+    .body-text h1,
+    .para-title,
+    .para-body {
+        margin-bottom: 5px;
+    }
+
     header a, .btn {
-        font-size: 0.6rem;
+        font-size: 0.5rem;
     }
 
     .connect {
