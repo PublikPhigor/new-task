@@ -1,0 +1,31 @@
+/* global styles */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.highlight {
+    color: #1FA78F;
+}
+
+.main-cont {
+    max-width: 90%;
+    margin: 30px auto;
+    border-radius: 10px;
+    background-color: #000;
+    background-image: -webkit-linear-gradient(30deg, #F9F9F9 50%, #1FA78F 50%);
+    min-height: 500px;
+  }
