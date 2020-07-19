@@ -4,10 +4,6 @@
     margin: 0;
 }
 
-body {
-
-}
-
 ul {
     padding: 0;
     margin: 0;
@@ -17,15 +13,143 @@ li {
     list-style-type: none;
 }
 
+.container {
+    max-width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
 .highlight {
     color: #1FA78F;
 }
 
+.current {
+    border-bottom: 2px dashed #fff;
+}
+
+.btn {
+    padding: 10px;
+    background: #1FA78F;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+    .btn:hover {
+        background: #4E4E4E;
+    }
+
+/* typography */
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
 .main-cont {
+    display: flex;
     max-width: 90%;
     margin: 30px auto;
+    padding: 20px 20px 0px 20px;
     border-radius: 10px;
     background-color: #000;
     background-image: -webkit-linear-gradient(30deg, #F9F9F9 50%, #1FA78F 50%);
-    min-height: 500px;
+    max-height: 700px;
   }
+
+/* connect */
+.connect {
+    margin: 20% 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #BDBDBD;
+    border-radius: 15px;
+    justify-content: space-evenly;
+    max-height: 200px;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+    .connect a {
+        margin-bottom: 5px;
+    }
+
+
+/* header */
+header {
+    margin: auto;
+}
+
+    header #logo {
+        float: left;
+    }
+
+    header li {
+        padding-right: 25px;
+        float: left;
+    }
+
+    header a {
+        text-decoration: none;
+        color: #FFF;
+        font-weight: bold;
+        font-size: 0.85rem;
+    }
+
+        header a:hover {
+            background-color: #3B7282;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+    header nav {
+        float: right;
+    }
+
+/* body */
+.body {
+    margin-top: 10%;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    margin-bottom: 0;
+}
+    .body-text {
+        margin-top: 20%;
+        max-width: 50%;
+    }
+        .body-text h2 {
+            margin-bottom: 15px;
+            color: #3B7282;
+        }
+
+        .body-text h1 {
+            margin-bottom: 15px;
+            color: #071E25;
+        }
+
+        .para-title {
+            margin-bottom: 15px;
+            font-weight: bold;
+            color: #4E4E4E;
+        }
+
+        .para-body {
+            margin-bottom: 15px;
+            color: #4E4E4E;
+        }
+
+    .body-img {
+        margin-bottom: 0;
+        max-width: 50%;
+    }
+        .body-img img {
+            max-height: 600px;
+            margin-bottom: -10px;
+        }
